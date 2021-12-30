@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "expert_armor:diamond_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_chestplate"
+  }
+}
