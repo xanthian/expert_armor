@@ -15,13 +15,16 @@ For example
 X _ X
 _ _ _
 X _ X
+
 ![image](https://user-images.githubusercontent.com/7688001/147794299-dfa50f36-0a20-48eb-ae0f-a75a5b79ff73.png)
 
 The diamond plate takes place of the diamond in the vanilla recipe (see below)
+
 ![image](https://user-images.githubusercontent.com/7688001/147794303-dca7acf2-eeb1-4f9c-a24b-1980e154f3bc.png)
 
 
 All plates can be converted back by placing in either player crafting square or crafting table.
+
 ![image](https://user-images.githubusercontent.com/7688001/147794307-6ad084a3-ea2f-4764-b469-eaf4ea015186.png)
 
 Recipe unlock achievements all amended to suit.
