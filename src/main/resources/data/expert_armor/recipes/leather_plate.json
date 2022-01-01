@@ -2,15 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "X X",
-    " Z ",
+	"   ",
     "X X"
   ],
   "key": {
     "X": {
       "item": "minecraft:leather"
-    },
-    "Z": {
-      "item": "minecraft:iron_nugget"
+    }
   },
   "result": {
 "item": "expert_armor:leather_plate"
