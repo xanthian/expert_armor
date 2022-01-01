@@ -6,13 +6,8 @@
       "item": "expert_armor:leather_plate"
     }
   ],
-  "results": [
-    {
+  "result": {
     "item": "minecraft:leather",
     "count": 4
-    },
-    {
-    "item": "minecraft:copper_ingot"
-    }
-    ]
+  }
 }
