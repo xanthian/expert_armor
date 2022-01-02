@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.item.ItemGroup;
 
 
-public class expert_armor implements ModInitializer {
+public class ExpertArmor implements ModInitializer {
  
     // an instance of our new item
     public static final Item DIAMOND_PLATE = new Item(new FabricItemSettings().group(ItemGroup.MISC));
