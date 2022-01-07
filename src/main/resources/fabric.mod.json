@@ -5,6 +5,8 @@
   "name": "Expert_Armor",
   "description": "Armor, but more difficult!",
   "authors": ["Xanthian"],
-  "entrypoints": {"main": ["net.xanthian.expert_armor.expert_armor"]},
+  "entrypoints": {"main": [
+    "net.xanthian.expert_armor.ExpertArmor"
+  ]},
   "icon": "assets/expert_armor/icon.png"
 }
