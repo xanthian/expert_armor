@@ -2,11 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "X X",
-    "X X"
+    "Z Z"
   ],
   "key": {
     "X": {
       "item": "expert_armor:iron_plate"
+    },
+    "Z": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {

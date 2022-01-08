@@ -1,18 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X X",
-    "Z Z"
+    "Z Z",
+    " X ",
+	"Y Y"
   ],
   "key": {
     "X": {
       "item": "expert_armor:diamond_plate"
     },
+    "Y": {
+      "item": "minecraft:blaze_rod"
+    },
     "Z": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:netherite_ingot"
     }
   },
   "result": {
-    "item": "minecraft:diamond_boots"
+"item": "expert_armor:netherite_plate"
   }
 }

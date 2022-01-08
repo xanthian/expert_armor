@@ -1,10 +1,7 @@
 {
-  "language.name": "English",
-  "language.region": "United States",
-  "language.code": "en_us",
-  "item.expert_armor.diamond_plate": "Diamond Armor Plate",
+  "item.expert_armor.leather_plate": "Reinforced Leather Kit",
   "item.expert_armor.iron_plate": "Iron Armor Plate",
   "item.expert_armor.gold_plate": "Gold Armor Plate",
-  "item.expert_armor.leather_plate": "Reinforced Leather Kit",
-  "item.expert_armor.netheriteplate": "Netherite Armor Plate"
+  "item.expert_armor.diamond_plate": "Diamond Armor Plate",
+  "item.expert_armor.netherite_plate": "Netherite Armor Plate"
 }

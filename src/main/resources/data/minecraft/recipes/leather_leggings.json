@@ -1,13 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
-    "X X",
-    "X X"
+    "XZX",
+    "Z Z",
+    "Z Z"
   ],
   "key": {
     "X": {
       "item": "expert_armor:leather_plate"
+    },
+    "Z": {
+      "item": "minecraft:leather"
     }
   },
   "result": {

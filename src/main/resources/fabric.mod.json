@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "id": "expert_armor",
-  "version": "1",
+  "version": "1.0.2",
   "name": "Expert_Armor",
   "description": "Armor, but more difficult!",
   "authors": ["Xanthian"],
   "entrypoints": {"main": [
-    "net.xanthian.expert_armor.ExpertArmor"
+    "net.xanthian.expert_armor.Initialize_Mod"
   ]},
   "icon": "assets/expert_armor/icon.png"
 }
