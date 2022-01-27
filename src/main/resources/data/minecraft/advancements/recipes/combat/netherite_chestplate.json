@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_diamond_plate": {
+    "has_netherite_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

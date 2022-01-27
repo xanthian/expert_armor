@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "diamond",
+  "group": "netherite",
   "ingredients": [
     {
       "item": "expert_armor:netherite_plate"

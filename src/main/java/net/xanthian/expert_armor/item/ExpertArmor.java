@@ -1,6 +1,7 @@
 package net.xanthian.expert_armor.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -15,6 +16,7 @@ public class ExpertArmor {
     public static final Item GOLD_PLATE = registerItem("gold_plate", new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
     public static final Item DIAMOND_PLATE = registerItem("diamond_plate", new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
     public static final Item NETHERITE_PLATE = registerItem("netherite_plate", new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
+
 
     //Register Items
     private static Item registerItem(String name, Item item) {
