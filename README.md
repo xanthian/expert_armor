@@ -20,7 +20,7 @@ X _ X
 
 The diamond plate takes place of the diamond in the vanilla recipe (see below)
 
-![image](https://user-images.githubusercontent.com/7688001/147794303-dca7acf2-eeb1-4f9c-a24b-1980e154f3bc.png)
+![image](https://user-images.githubusercontent.com/7688001/148661819-123d9237-5507-4767-9344-34b347e5d2b3.png)
 
 
 All plates can be converted back by placing in either player crafting square or crafting table.
