@@ -1,7 +1,42 @@
 {
+  "itemGroup.expert_armor.expert": "Expert Armor",
+
   "item.expert_armor.leather_plate": "Reinforced Leather Kit",
   "item.expert_armor.iron_plate": "Iron Armor Plate",
   "item.expert_armor.gold_plate": "Gold Armor Plate",
   "item.expert_armor.diamond_plate": "Diamond Armor Plate",
-  "item.expert_armor.netherite_plate": "Netherite Armor Plate"
+  "item.expert_armor.netherite_plate": "Netherite Armor Plate",
+
+  "item.expert_armor.trcompat.bronze_plate": "Bronze Armor Plate",
+  "item.expert_armor.trcompat.ruby_plate": "Ruby Armor Plate",
+  "item.expert_armor.trcompat.peridot_plate": "Peridot Armor Plate",
+  "item.expert_armor.trcompat.sapphire_plate": "Sapphire Armor Plate",
+  "item.expert_armor.trcompat.silver_plate": "Silver Armor Plate",
+  "item.expert_armor.trcompat.steel_plate": "Steel Armor Plate",
+
+  "item.expert_armor.gobcompat.gobber2_nether_plate": "Gobber Nether Armor Plate",
+  "item.expert_armor.gobcompat.gobber2_plate": "Gobber Armor Plate",
+  "item.expert_armor.gobcompat.gobber2_reinforced_end_links": "Gobber Reinforced End Armor Links",
+
+  "item.expert_armor.mmcompat.adamantite_plate": "Adamantite Armor Plate",
+  "item.expert_armor.mmcompat.aquarium_plate": "Aquarium Armor Plate",
+  "item.expert_armor.mmcompat.banglum_plate": "Banglum Armor Plate",
+  "item.expert_armor.mmcompat.bronze_plate": "Bronze Armor Plate",
+  "item.expert_armor.mmcompat.carmot_plate": "Carmot Armor Plate",
+  "item.expert_armor.mmcompat.celestium_plate": "Celestium Armor Plate",
+  "item.expert_armor.mmcompat.copper_plate": "Copper Armor Plate",
+  "item.expert_armor.mmcompat.durasteel_plate": "Durasteel Armor Plate",
+  "item.expert_armor.mmcompat.hallowed_plate": "Hallowed Armor Plate",
+  "item.expert_armor.mmcompat.kyber_plate": "Kyber Armor Plate",
+  "item.expert_armor.mmcompat.metallurgium_plate": "Metallurgium Armor Plate",
+  "item.expert_armor.mmcompat.midas_gold_plate": "Midas Gold Armor Plate",
+  "item.expert_armor.mmcompat.mythril_plate": "Mythril Armor Plate",
+  "item.expert_armor.mmcompat.orichalcum_plate": "Orichalcum Armor Plate",
+  "item.expert_armor.mmcompat.osmium_plate": "Osmium Armor Plate",
+  "item.expert_armor.mmcompat.palladium_plate": "Palladium Armor Plate",
+  "item.expert_armor.mmcompat.prometheum_plate": "Prometheum Armor Plate",
+  "item.expert_armor.mmcompat.runite_plate": "Runite Armor Plate",
+  "item.expert_armor.mmcompat.silver_plate": "Silver Armor Plate",
+  "item.expert_armor.mmcompat.star_platinum_plate": "Star Platinum Armor Plate",
+  "item.expert_armor.mmcompat.stormyx_plate": "Stormyx Armor Plate"
 }

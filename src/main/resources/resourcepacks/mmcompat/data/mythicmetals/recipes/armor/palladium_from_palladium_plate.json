@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "group": "palladium",
+  "ingredients": [
+    {
+      "item": "expert_armor:mmcompat/palladium_plate"
+    }
+  ],
+  "result": {
+    "item": "mythicmetals:palladium_ingot",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "group": "silver",
+  "ingredients": [
+    {
+      "item": "expert_armor:trcompat/silver_plate"
+    }
+  ],
+  "result": {
+    "item": "techreborn:silver_ingot",
+    "count": 4
+  }
+}

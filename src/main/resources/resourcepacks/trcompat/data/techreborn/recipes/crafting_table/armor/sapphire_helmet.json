@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "Z Z"
+  ],
+  "key": {
+    "X": {
+      "item": "expert_armor:trcompat/sapphire_plate"
+    },
+    "Z": {
+      "item": "techreborn:sapphire_gem"
+      }
+  },
+  "result": {
+    "item": "techreborn:sapphire_helmet"
+  }
+}

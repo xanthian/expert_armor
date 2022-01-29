@@ -1,0 +1,6 @@
+﻿{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "expert_armor:item/mmcompat/osmium_plate"
+  }
+}

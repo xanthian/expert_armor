@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xmx",
+    "m m",
+    "m m"
+  ],
+  "key": {
+    "m": {
+      "item": "mythicmetals:aquarium_ingot"
+    },
+    "x": {
+      "item": "expert_armor:mmcompat/aquarium_plate"
+    }
+  },
+  "result": {
+    "item": "mythicmetals:aquarium_leggings",
+    "count": 1
+  }
+}

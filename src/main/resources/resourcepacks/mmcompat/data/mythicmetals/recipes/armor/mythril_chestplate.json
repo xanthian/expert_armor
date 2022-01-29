@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "m m",
+    "xmx",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "mythicmetals:mythril_ingot"
+    },
+    "x": {
+      "item": "expert_armor:mmcompat/mythril_plate"
+    },
+    "x": {
+      "item": "expert_armor:mmcompat/mythril_plate"
+    }
+  },
+  "result": {
+    "item": "mythicmetals:mythril_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "m m"
+  ],
+  "key": {
+    "m": {
+      "item": "mythicmetals:hallowed_ingot"
+    },
+    "x": {
+      "item": "expert_armor:mmcompat/hallowed_plate"
+    }
+  },
+  "result": {
+    "item": "mythicmetals:hallowed_boots",
+    "count": 1
+  }
+}

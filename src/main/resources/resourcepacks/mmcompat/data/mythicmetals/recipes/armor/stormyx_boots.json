@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "m m"
+  ],
+  "key": {
+    "m": {
+      "item": "mythicmetals:stormyx_ingot"
+    },
+    "x": {
+      "item": "expert_armor:mmcompat/stormyx_plate"
+    }
+  },
+  "result": {
+    "item": "mythicmetals:stormyx_boots",
+    "count": 1
+  }
+}

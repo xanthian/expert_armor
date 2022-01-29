@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "m m",
+    "xmx",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "mythicmetals:durasteel_ingot"
+    },
+    "x": {
+      "item": "expert_armor:mmcompat/durasteel_plate"
+    }
+  },
+  "result": {
+    "item": "mythicmetals:durasteel_chestplate",
+    "count": 1
+  }
+}

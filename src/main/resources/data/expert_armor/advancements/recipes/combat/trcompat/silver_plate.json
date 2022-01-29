@@ -1,0 +1,42 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expert_armor:trcompat/silver_plate"
+    ]
+  },
+  "criteria": {
+    "has_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "techreborn:silver_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expert_armor:trcompat/silver_plate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silver",
+      "has_the_recipe"
+    ]
+  ]
+}

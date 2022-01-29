@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "group": "gobber2",
+  "ingredients": [
+    {
+      "item": "expert_armor:gobcompat/gobber2_plate"
+    }
+  ],
+  "result": {
+    "item": "gobber2:gobber2_ingot",
+    "count": 4
+  }
+}

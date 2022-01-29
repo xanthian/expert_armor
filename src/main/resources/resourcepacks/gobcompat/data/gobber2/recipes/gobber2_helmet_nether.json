@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "Z Z"
+  ],
+  "key": {
+    "X": {
+      "item": "expert_armor:gobcompat/gobber2_nether_plate"
+    },
+    "Y": {
+      "item": "minecraft:nether_star"
+    },
+    "Z": {
+      "item": "gobber2:gobber2_ingot_nether"
+      }
+  },
+  "result": {
+    "item": "gobber2:gobber2_helmet_nether"
+  }
+}

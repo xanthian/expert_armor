@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xmx",
+    "m m",
+    "m m"
+  ],
+  "key": {
+    "m": {
+      "tag": "c:copper_ingots"
+    },
+    "x": {
+      "item": "expert_armor:mmcompat/copper_plate"
+    }
+  },
+  "result": {
+    "item": "mythicmetals:copper_leggings",
+    "count": 1
+  }
+}
