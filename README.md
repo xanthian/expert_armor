@@ -1,3 +1,11 @@
+<p align="center">
+<a href="https://www.curseforge.com/minecraft/mc-mods/expert-armor-fabric"><img src="https://cf.way2muchnoise.eu/full_expert-armor_downloads.svg">
+ <img src="http://cf.way2muchnoise.eu/versions/expert-armor.svg"></a>
+ </p>
+
+<h1 align="center"># Expert Armor #</h1>
+<p align="center">
+
 A FABRIC Mod to slow down the armor progression game.
 Required on both client & server.
 
