@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://www.curseforge.com/minecraft/mc-mods/expert-armor-fabric"><img src="https://cf.way2muchnoise.eu/full_expert-armor_downloads.svg">
+<a href="https://www.curseforge.com/minecraft/mc-mods/expert-armor"><img src="https://cf.way2muchnoise.eu/full_expert-armor_downloads.svg">
  <img src="http://cf.way2muchnoise.eu/versions/expert-armor.svg"></a>
  </p>
 
