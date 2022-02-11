@@ -30,11 +30,11 @@ public class Initialize_Mod implements ModInitializer {
             FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
                 ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("gobber2", "gobcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
             });
-
-            if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
-                MMCompat.registerModItems();
-                FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
-                    ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("mythicmetals", "mmcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
+        }
+        if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
+            MMCompat.registerModItems();
+            FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+                ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("mythicmetals", "mmcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
                 });
             }
         }
