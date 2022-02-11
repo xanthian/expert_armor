@@ -35,8 +35,7 @@ public class Initialize_Mod implements ModInitializer {
             MMCompat.registerModItems();
             FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
                 ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("mythicmetals", "mmcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
-                });
-            }
+            });
         }
     }
 }
