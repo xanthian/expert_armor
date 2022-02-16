@@ -1,12 +1,19 @@
 {
   "schemaVersion": 1,
   "id": "expert_armor",
-  "version": "1.0.5",
+  "version": "${version}",
   "name": "Expert_Armor",
+  "license": "CC0-1.0",
   "description": "Armor, but more difficult!",
   "authors": ["Xanthian"],
   "entrypoints": {"main": [
     "net.xanthian.expert_armor.Initialize_Mod"
   ]},
-  "icon": "assets/expert_armor/icon.png"
+  "icon": "assets/expert_armor/icon.png",
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": ">=0.46.0",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
 }
