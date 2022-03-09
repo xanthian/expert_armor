@@ -1,0 +1,42 @@
+{
+  "itemGroup.expert_armor.expert": "Expert Armor",
+
+  "item.expert_armor.leather_plate": "Verstärktes Leder-Kit",
+  "item.expert_armor.iron_plate": "Eisenplatte",
+  "item.expert_armor.gold_plate": "Goldplatte",
+  "item.expert_armor.diamond_plate": "Diamantplatte",
+  "item.expert_armor.netherite_plate": "Netheritplatte",
+
+  "item.expert_armor.trcompat.bronze_plate": "Bronzeplatte",
+  "item.expert_armor.trcompat.ruby_plate": "Rubinplatte",
+  "item.expert_armor.trcompat.peridot_plate": "Peridotplatte",
+  "item.expert_armor.trcompat.sapphire_plate": "Saphirplatte",
+  "item.expert_armor.trcompat.silver_plate": "Silberplatte",
+  "item.expert_armor.trcompat.steel_plate": "Stahlplatte",
+
+  "item.expert_armor.gobcompat.gobber2_nether_plate": "Gobbernetherplatte",
+  "item.expert_armor.gobcompat.gobber2_plate": "Gobberplatte",
+  "item.expert_armor.gobcompat.gobber2_reinforced_end_links": "Verstärkte Gobberplatte",
+
+  "item.expert_armor.mmcompat.adamantite_plate": "Adamantitplatte",
+  "item.expert_armor.mmcompat.aquarium_plate": "Aquariumplatte",
+  "item.expert_armor.mmcompat.banglum_plate": "Banglumplatte",
+  "item.expert_armor.mmcompat.bronze_plate": "Bronzeplatte",
+  "item.expert_armor.mmcompat.carmot_plate": "Carmotplatte",
+  "item.expert_armor.mmcompat.celestium_plate": "Celestiumplatte",
+  "item.expert_armor.mmcompat.copper_plate": "Kupferplatte",
+  "item.expert_armor.mmcompat.durasteel_plate": "Durastahlplatte",
+  "item.expert_armor.mmcompat.hallowed_plate": "Heilige Platte",
+  "item.expert_armor.mmcompat.kyber_plate": "Kyberplatte",
+  "item.expert_armor.mmcompat.metallurgium_plate": "Metallurgiumplatte",
+  "item.expert_armor.mmcompat.midas_gold_plate": "Midasgoldplatte",
+  "item.expert_armor.mmcompat.mythril_plate": "Mythrilplatte",
+  "item.expert_armor.mmcompat.orichalcum_plate": "Orichalcumplatte",
+  "item.expert_armor.mmcompat.osmium_plate": "Osmiumplatte",
+  "item.expert_armor.mmcompat.palladium_plate": "Palladiumplatte",
+  "item.expert_armor.mmcompat.prometheum_plate": "Prometheumplatte",
+  "item.expert_armor.mmcompat.runite_plate": "Runitplatte",
+  "item.expert_armor.mmcompat.silver_plate": "Silberplatte",
+  "item.expert_armor.mmcompat.star_platinum_plate": "Sternenplatiniumplatte",
+  "item.expert_armor.mmcompat.stormyx_plate": "Stormyxplatte"
+}
