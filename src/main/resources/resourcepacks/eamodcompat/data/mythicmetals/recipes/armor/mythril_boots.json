@@ -9,8 +9,7 @@
   ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "xmx",
-    "m m",
+    "x x",
     "m m"
   ],
   "key": {
@@ -22,7 +21,6 @@
     }
   },
   "result": {
-    "item": "mythicmetals:mythril_leggings",
-    "count": 1
+    "item": "mythicmetals:mythril_boots"
   }
 }

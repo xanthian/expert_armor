@@ -9,9 +9,9 @@
   ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "m m",
     "xmx",
-    "mmm"
+    "m m",
+    "m m"
   ],
   "key": {
     "m": {
@@ -19,13 +19,9 @@
     },
     "x": {
       "item": "expert_armor:mmcompat/mythril_plate"
-    },
-    "x": {
-      "item": "expert_armor:mmcompat/mythril_plate"
     }
   },
   "result": {
-    "item": "mythicmetals:mythril_chestplate",
-    "count": 1
+    "item": "mythicmetals:mythril_leggings"
   }
 }
