@@ -1,8 +1,9 @@
 {
   "itemGroup.expert_armor.expert": "Expert Armor",
 
-  "item.expert_armor.leather_plate": "Reinforced Leather Kit",
+  "item.expert_armor.leather_plate": "Reinforced Leather Armor Kit",
   "item.expert_armor.iron_plate": "Iron Armor Plate",
+  "item.expert_armor.turtle_plate": "Turtle Shell Armor Plate",
   "item.expert_armor.gold_plate": "Gold Armor Plate",
   "item.expert_armor.diamond_plate": "Diamond Armor Plate",
   "item.expert_armor.netherite_plate": "Netherite Armor Plate",
@@ -28,6 +29,7 @@
   "item.expert_armor.mmcompat.durasteel_plate": "Durasteel Armor Plate",
   "item.expert_armor.mmcompat.hallowed_plate": "Hallowed Armor Plate",
   "item.expert_armor.mmcompat.kyber_plate": "Kyber Armor Plate",
+  "item.expert_armor.mmcompat.legendary_banglum_plate": "Legendary Banglum Armor Plate",
   "item.expert_armor.mmcompat.metallurgium_plate": "Metallurgium Armor Plate",
   "item.expert_armor.mmcompat.midas_gold_plate": "Midas Gold Armor Plate",
   "item.expert_armor.mmcompat.mythril_plate": "Mythril Armor Plate",
@@ -38,5 +40,33 @@
   "item.expert_armor.mmcompat.runite_plate": "Runite Armor Plate",
   "item.expert_armor.mmcompat.silver_plate": "Silver Armor Plate",
   "item.expert_armor.mmcompat.star_platinum_plate": "Star Platinum Armor Plate",
-  "item.expert_armor.mmcompat.stormyx_plate": "Stormyx Armor Plate"
+  "item.expert_armor.mmcompat.stormyx_plate": "Stormyx Armor Plate",
+
+  "item.expert_armor.botania.elementium_plate": "Elementium Armor Plate",
+  "item.expert_armor.botania.manasteel_plate": "Manasteel Armor Plate",
+  "item.expert_armor.botania.manaweave_plate": "Manaweave Reinforced Armor Kit",
+  "item.expert_armor.botania.terrasteel_plate": "Terrasteel Armor Plate",
+
+  "item.expert_armor.betternether.cincinnasite_plate": "Cincinnasite Armor Plate",
+  "item.expert_armor.betternether.nether_ruby_plate": "Nether Ruby Armor Plate",
+
+  "item.expert_armor.betterend.aeternium_plate": "Aeternium Armor Plate",
+  "item.expert_armor.betterend.crystalite_plate": "Crystalite Armor Plate",
+  "item.expert_armor.betterend.terminite_plate": "Terminite Armor Plate",
+  "item.expert_armor.betterend.thallasium_plate": "Thallasium Armor Plate",
+
+  "item.expert_armor.coppereq.compressed_copper_plate": "Compressed Copper Armor Plate",
+  "item.expert_armor.coppereq.compressed_waxed_copper_plate": "Compressed Waxed Copper Armor Plate",
+
+  "item.expert_armor.advnetherite.netherite_iron_plate": "Netherite-Iron Armor Plate",
+  "item.expert_armor.advnetherite.netherite_gold_plate": "Netherite-Gold Armor Plate",
+  "item.expert_armor.advnetherite.netherite_emerald_plate": "Netherite-Emerald Armor Plate",
+  "item.expert_armor.advnetherite.netherite_diamond_plate": "Netherite-Diamond Armor Plate",
+
+  "item.expert_armor.aether.gravitite_plate": "Gravitite Armor Plate",
+  "item.expert_armor.aether.zanite_plate": "Zanite Armor Plate",
+
+  "item.expert_armor.dragonloot.dragon_plate": "Dragon Scale Armor Plate",
+
+  "item.expert_armor.valleycraft.rose_gold_plate": "Rose Gold Armor Plate"
 }

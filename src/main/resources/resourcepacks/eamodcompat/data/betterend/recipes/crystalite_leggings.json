@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "type": "betterend:infusion",
+  "input": {
+    "item": "betterend:terminite_leggings"
+  },
+  "result": {
+    "item": "betterend:crystalite_leggings"
+  },
+  "time": 150,
+  "catalysts": {
+    "north": "betterend:amber_gem",
+    "east": "betterend:crystal_shards",
+    "south": "expert_armor:betterend/crystalite_plate",
+    "west": "betterend:crystal_shards"
+  }
+}

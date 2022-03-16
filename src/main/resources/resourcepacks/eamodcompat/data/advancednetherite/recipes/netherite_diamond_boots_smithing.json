@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "advancednetherite"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "advancednetherite:boots/upgrade_to_netherite_diamond"
+  },
+  "addition": {
+    "item": "expert_armor:advnetherite/netherite_diamond_plate"
+  },
+  "result": {
+    "item": "advancednetherite:netherite_diamond_boots"
+  }
+}

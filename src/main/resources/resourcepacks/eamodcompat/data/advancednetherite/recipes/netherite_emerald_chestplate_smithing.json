@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "advancednetherite"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "advancednetherite:chestplates/upgrade_to_netherite_emerald"
+  },
+  "addition": {
+    "item": "expert_armor:advnetherite/netherite_emerald_plate"
+  },
+  "result": {
+    "item": "advancednetherite:netherite_emerald_chestplate"
+  }
+}

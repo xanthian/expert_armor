@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expert_armor:betterend/crystalite_plate"
+    }
+  ],
+  "result": {
+    "item": "betterend:crystal_shards",
+    "count": 4
+  }
+}

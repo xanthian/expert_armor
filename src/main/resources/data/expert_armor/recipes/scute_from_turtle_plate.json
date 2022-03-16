@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expert_armor:turtle_plate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:scute",
+    "count": 4
+  }
+}

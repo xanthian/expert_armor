@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "the_aether"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+    "X X"
+  ],
+  "key": {
+    "Z": {
+      "item": "expert_armor:aether/zanite_plate"
+    },
+    "X": {
+      "item": "the_aether:zanite_gemstone"
+    }
+  },
+  "result": {
+    "item": "the_aether:zanite_boots"
+  }
+}

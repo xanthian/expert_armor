@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+	"# #",
+	"# #"
+  ],
+  "key": {
+    "X": {
+      "item": "expert_armor:betterend/terminite_plate"
+    },
+    "#": {
+      "item": "betterend:terminite_forged_plate"
+    }
+  },
+  "result": {
+    "item": "betterend:terminite_leggings"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "dragonloot"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z X",
+    "   ",
+    "X Z"
+  ],
+  "key": {
+    "Z": {
+      "item": "minecraft:dragon_breath"
+    },
+    "X": {
+      "item": "dragonloot:dragon_scale"
+    }
+  },
+  "result": {
+    "item": "expert_armor:dragonloot/dragon_plate"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "the_aether"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expert_armor:aether/gravitite_plate"
+    }
+  ],
+  "result": {
+    "item": "the_aether:gravitite_gemstone",
+    "count": 4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "X X"
+  ],
+  "key": {
+    "Z": {
+      "item": "expert_armor:turtle_plate"
+    },
+    "X": {
+      "item": "minecraft:scute"
+    }
+  },
+  "result": {
+    "item": "minecraft:turtle_helmet"
+  }
+}

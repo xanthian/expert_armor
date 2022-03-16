@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expert_armor:betternether/nether_ruby_plate"
+    }
+  ],
+  "result": {
+    "item": "betternether:nether_ruby",
+    "count": 4
+  }
+}

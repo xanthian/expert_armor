@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "the_aether"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "Z": {
+      "item": "expert_armor:aether/gravitite_plate"
+    },
+    "X": {
+      "item": "the_aether:gravitite_gemstone"
+    }
+  },
+  "result": {
+    "item": "the_aether:gravitite_leggings"
+  }
+}

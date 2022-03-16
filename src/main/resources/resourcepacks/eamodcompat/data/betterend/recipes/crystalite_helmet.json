@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "type": "betterend:infusion",
+  "input": {
+    "item": "betterend:terminite_helmet"
+  },
+  "result": {
+    "item": "betterend:crystalite_helmet"
+  },
+  "time": 150,
+  "catalysts": {
+    "north": "betterend:amber_gem",
+    "south": "expert_armor:betterend/crystalite_plate"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "valley"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "addition": {
+    "item": "expert_armor:valleycraft/rose_gold_plate"
+  },
+  "result": {
+    "item": "valley:rg_chestplate"
+  }
+}
