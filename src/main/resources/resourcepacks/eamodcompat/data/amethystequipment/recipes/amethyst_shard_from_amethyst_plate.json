@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "amethystequipment"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expert_armor:amethysteq/amethyst_plate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:amethyst_shard",
+    "count": 4
+  }
+}

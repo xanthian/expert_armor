@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "amethystequipment"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "B B",
+        "XBX",
+        "BBB"
+    ],
+    "key": {
+        "X": {
+            "item": "expert_armor:amethysteq/amethyst_plate"
+        },
+        "B": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "item": "amethystequipment:amethyst_chestplate"
+    }
+}

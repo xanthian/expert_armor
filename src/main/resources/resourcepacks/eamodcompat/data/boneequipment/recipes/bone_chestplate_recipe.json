@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "boneequipment"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "B B",
+        "XBX",
+        "BBB"
+    ],
+    "key": {
+        "X": {
+            "item": "expert_armor:boneeq/bone_plate"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        }
+    },
+    "result": {
+        "item": "boneequipment:bone_chestplate"
+    }
+}

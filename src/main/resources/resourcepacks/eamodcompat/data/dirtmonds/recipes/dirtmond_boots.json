@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "dirtmonds"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+    "# #"
+  ],
+  "key": {
+    "Z": {
+      "item": "expert_armor:dirtmonds/dirtmond_plate"
+    },
+    "#": {
+      "item": "dirtmonds:dirtmond"
+    }
+  },
+  "result": {
+    "item": "dirtmonds:dirtmond_boots",
+    "count": 1
+  }
+}

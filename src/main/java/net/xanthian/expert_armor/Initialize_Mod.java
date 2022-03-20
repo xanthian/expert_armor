@@ -64,5 +64,14 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("valley")) {
             ValleyCraft.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("amethystequipment")) {
+            AmethystEquipment.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("boneequipment")) {
+            BoneEquipment.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("dirtmonds")) {
+            Dirtmonds.registerModItems();
+        }
     }
 }

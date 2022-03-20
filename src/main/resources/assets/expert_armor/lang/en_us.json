@@ -68,5 +68,12 @@
 
   "item.expert_armor.dragonloot.dragon_plate": "Dragon Scale Armor Plate",
 
-  "item.expert_armor.valleycraft.rose_gold_plate": "Rose Gold Armor Plate"
+  "item.expert_armor.valleycraft.rose_gold_plate": "Rose Gold Armor Plate",
+
+  "item.expert_armor.amethysteq.amethyst_plate": "Amethyst Armor Plate",
+
+  "item.expert_armor.boneeq.bone_plate": "Bone Armor Plate",
+
+  "item.expert_armor.dirtmonds.dirtmond_plate": "Dirtmond Armor Plate"
+
 }
