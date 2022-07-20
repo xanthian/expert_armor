@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "mythicmetals:steel_ingot"
+    },
+    "Z": {
+      "item": "expert_armor:mmcompat/steel_plate"
+    }
+  },
+  "result": {
+    "item": "mythicmetals:steel_boots"
+  }
+}

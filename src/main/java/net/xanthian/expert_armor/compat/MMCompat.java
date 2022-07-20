@@ -34,6 +34,7 @@ public class MMCompat {
     public static final Item RUNITE_PLATE = registerItem("mmcompat/runite_plate", new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT)));
     public static final Item SILVER_PLATE = registerItem("mmcompat/silver_plate", new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT)));
     public static final Item STAR_PLATINUM_PLATE = registerItem("mmcompat/star_platinum_plate", new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT)));
+    public static final Item STEEL_PLATE = registerItem("mmcompat/steel_plate", new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT)));
     public static final Item STORMYX_PLATE = registerItem("mmcompat/stormyx_plate", new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT)));
 
     private static Item registerItem(String name, Item item) {

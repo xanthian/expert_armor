@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "group": "steel",
+  "ingredients": [
+    {
+      "item": "expert_armor:mmcompat/steel_plate"
+    }
+  ],
+  "result": {
+    "item": "mythicmetals:steel_ingot",
+    "count": 4
+  }
+}
