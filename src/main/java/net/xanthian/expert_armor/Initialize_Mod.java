@@ -61,9 +61,6 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("dragonloot")) {
             DragonLoot.registerModItems();
         }
-        if (FabricLoader.getInstance().isModLoaded("valley")) {
-            ValleyCraft.registerModItems();
-        }
         if (FabricLoader.getInstance().isModLoaded("amethystequipment")) {
             AmethystEquipment.registerModItems();
         }
@@ -72,6 +69,9 @@ public class Initialize_Mod implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("dirtmonds")) {
             Dirtmonds.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("emerald_tools")) {
+            Emerald_Tools.registerModItems();
         }
     }
 }

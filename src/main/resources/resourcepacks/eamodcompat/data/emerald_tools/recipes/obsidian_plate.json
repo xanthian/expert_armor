@@ -3,25 +3,22 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "valley"
+        "emerald_tools"
       ]
     }
   ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "Z#Z",
-    "# #",
-    "# #"
+    "B B",
+    "   ",
+    "B B"
   ],
   "key": {
-    "Z": {
-      "item": "expert_armor:turtle_plate"
-    },
-    "#": {
-      "item": "minecraft:scute"
+    "B": {
+      "item": "minecraft:obsidian"
     }
   },
   "result": {
-    "item": "valley:turtle_leggings"
+    "item": "expert_armor:emtools/obsidian_plate"
   }
 }

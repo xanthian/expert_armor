@@ -3,18 +3,18 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "valley"
+        "emerald_tools"
       ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "expert_armor:valleycraft/rose_gold_plate"
+      "item": "expert_armor:emtools/emerald_plate"
     }
   ],
   "result": {
-    "item": "minecraft:copper_ingot",
-    "count": 2
+    "item": "minecraft:emerald",
+    "count": 4
   }
 }

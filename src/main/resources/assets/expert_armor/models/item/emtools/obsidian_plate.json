@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "expert_armor:item/valleycraft/rose_gold_plate"
+    "layer0": "expert_armor:item/emtools/obsidian_plate"
   }
 }

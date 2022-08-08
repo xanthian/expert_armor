@@ -3,25 +3,22 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "valley"
+        "emerald_tools"
       ]
     }
   ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "Z X",
-	"   ",
-    "X Z"
+    "B B",
+    "   ",
+    "B B"
   ],
   "key": {
-    "Z": {
-      "item": "valley:copper_nugget"
-    },
-    "X": {
-      "item": "minecraft:copper_ingot"
+    "B": {
+      "item": "emerald_tools:ruby"
     }
   },
   "result": {
-    "item": "expert_armor:valleycraft/rose_gold_plate"
+    "item": "expert_armor:emtools/ruby_plate"
   }
 }

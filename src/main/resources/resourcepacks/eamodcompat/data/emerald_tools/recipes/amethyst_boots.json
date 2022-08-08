@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "emerald_tools"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X X",
+        "B B"
+    ],
+    "key": {
+        "X": {
+            "item": "expert_armor:emtools/amethyst_plate"
+        },
+        "B": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "item": "emerald_tools:amethyst_boots"
+    }
+}

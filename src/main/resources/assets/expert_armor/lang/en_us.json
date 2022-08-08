@@ -69,12 +69,16 @@
 
   "item.expert_armor.dragonloot.dragon_plate": "Dragon Scale Armor Plate",
 
-  "item.expert_armor.valleycraft.rose_gold_plate": "Rose Gold Armor Plate",
-
   "item.expert_armor.amethysteq.amethyst_plate": "Amethyst Armor Plate",
 
   "item.expert_armor.boneeq.bone_plate": "Bone Armor Plate",
 
-  "item.expert_armor.dirtmonds.dirtmond_plate": "Dirtmond Armor Plate"
+  "item.expert_armor.dirtmonds.dirtmond_plate": "Dirtmond Armor Plate",
 
+  "item.expert_armor.emtools.amethyst_plate": "Amethyst Armor Plate",
+  "item.expert_armor.emtools.copper_plate": "Copper Armor Plate",
+  "item.expert_armor.emtools.emerald_plate": "Emerald Armor Plate",
+  "item.expert_armor.emtools.obsidian_plate": "Obsidian Armor Plate",
+  "item.expert_armor.emtools.ruby_plate": "Ruby Armor Plate",
+  "item.expert_armor.emtools.steel_plate": "Steel Armor Plate"
 }

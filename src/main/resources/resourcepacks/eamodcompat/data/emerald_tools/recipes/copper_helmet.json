@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "emerald_tools"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XBX",
+        "B B"
+    ],
+    "key": {
+        "X": {
+            "item": "expert_armor:emtools/copper_plate"
+        },
+        "B": {
+            "item": "minecraft:copper_ingot"
+        }
+    },
+    "result": {
+        "item": "emerald_tools:copper_helmet"
+    }
+}
