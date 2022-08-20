@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "obsidianequipment"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O O",
+        "POP",
+        "OOO"
+    ],
+    "key": {
+        "O": {
+            "item": "obsidianequipment:obsidian_ingot"
+        },
+
+        "P": {
+            "item": "expert_armor:obsidianeq/obsidian_plate"
+        }
+    },
+    "result": {
+        "item": "obsidianequipment:obsidian_chestplate"
+    }
+}

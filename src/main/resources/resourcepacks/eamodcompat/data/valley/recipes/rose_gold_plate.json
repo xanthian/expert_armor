@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "valley"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z X",
+	"   ",
+    "X Z"
+  ],
+  "key": {
+    "Z": {
+      "item": "valley:copper_nugget"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "expert_armor:valleycraft/rose_gold_plate"
+  }
+}

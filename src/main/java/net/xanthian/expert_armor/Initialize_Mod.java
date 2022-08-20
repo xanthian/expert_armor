@@ -73,5 +73,11 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("emerald_tools")) {
             Emerald_Tools.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("obsidianequipment")) {
+            ObsidianEquipment.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("valleycraft")) {
+            ValleyCraft.registerModItems();
+        }
     }
 }

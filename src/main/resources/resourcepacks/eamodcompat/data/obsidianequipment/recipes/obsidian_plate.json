@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "obsidianequipment"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "   ",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "obsidianequipment:obsidian_ingot"
+    }
+  },
+  "result": {
+    "item": "expert_armor:obsidianeq/obsidian_plate"
+  }
+}

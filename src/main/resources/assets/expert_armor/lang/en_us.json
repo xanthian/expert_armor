@@ -73,6 +73,8 @@
 
   "item.expert_armor.boneeq.bone_plate": "Bone Armor Plate",
 
+  "item.expert_armor.valley.rose_gold_plate": "Rose Gold Armor Plate",
+
   "item.expert_armor.dirtmonds.dirtmond_plate": "Dirtmond Armor Plate",
 
   "item.expert_armor.emtools.amethyst_plate": "Amethyst Armor Plate",
@@ -80,5 +82,7 @@
   "item.expert_armor.emtools.emerald_plate": "Emerald Armor Plate",
   "item.expert_armor.emtools.obsidian_plate": "Obsidian Armor Plate",
   "item.expert_armor.emtools.ruby_plate": "Ruby Armor Plate",
-  "item.expert_armor.emtools.steel_plate": "Steel Armor Plate"
+  "item.expert_armor.emtools.steel_plate": "Steel Armor Plate",
+
+  "item.expert_armor.obsidianeq.obsidian_plate": "Obsidian Armor Plate"
 }
