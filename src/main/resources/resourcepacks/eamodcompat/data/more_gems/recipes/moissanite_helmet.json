@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "more_gems"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XgX",
+    "g g",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "expert_armor:more_gems/moissanite_plate"
+    },
+    "g": {
+      "item": "more_gems:moissanite"
+    }
+  },
+  "result": {
+    "item": "more_gems:moissanite_helmet"
+  }
+}

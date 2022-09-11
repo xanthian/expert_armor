@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "more_gems"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+	"   ",
+    "Z Z"
+  ],
+  "key": {
+    "Z": {
+      "item": "more_gems:topaz"
+    }
+  },
+  "result": {
+    "item": "expert_armor:more_gems/topaz_plate"
+  }
+}

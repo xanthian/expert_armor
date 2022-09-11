@@ -84,5 +84,17 @@
   "item.expert_armor.emtools.ruby_plate": "Ruby Armor Plate",
   "item.expert_armor.emtools.steel_plate": "Steel Armor Plate",
 
-  "item.expert_armor.obsidianeq.obsidian_plate": "Obsidian Armor Plate"
+  "item.expert_armor.obsidianeq.obsidian_plate": "Obsidian Armor Plate",
+
+  "item.expert_armor.more_gems.alexandrite_plate": "Alexandrite Armor Plate",
+  "item.expert_armor.more_gems.carbonado_plate": "Carbonado Armor Plate",
+  "item.expert_armor.more_gems.citrine_plate": "Citrine Armor Plate",
+  "item.expert_armor.more_gems.corundum_plate": "Corundum Armor Plate",
+  "item.expert_armor.more_gems.kunzite_plate": "Kunzite Armor Plate",
+  "item.expert_armor.more_gems.moissanite_plate": "Moissanite Armor Plate",
+  "item.expert_armor.more_gems.sapphire_plate": "Sapphire Armor Plate",
+  "item.expert_armor.more_gems.spinel_plate": "Spinel Armor Plate",
+  "item.expert_armor.more_gems.topaz_plate": "Topaz Armor Plate",
+  "item.expert_armor.more_gems.tourmaline_plate": "Tourmaline Armor Plate"
+
 }

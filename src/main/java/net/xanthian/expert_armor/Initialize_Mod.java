@@ -21,16 +21,16 @@ public class Initialize_Mod implements ModInitializer {
     public static final String MOD_ID = "expert_armor";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    public static final ItemGroup EXPERT = FabricItemGroupBuilder.build(new Identifier(Initialize_Mod.MOD_ID, "expert"),
+    public static final ItemGroup EXPERT = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "expert"),
             () -> new ItemStack(ExpertArmor.NETHERITE_PLATE));
 
     @Override
     public void onInitialize() {
 
         ExpertArmor.registerModItems();
-        ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("eamodcompat"),
-                FabricLoader.getInstance().getModContainer(Initialize_Mod.MOD_ID).orElseThrow(), ResourcePackActivationType.ALWAYS_ENABLED);
-
+        FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(MOD_ID, "eamodcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
+        });
         if (FabricLoader.getInstance().isModLoaded("techreborn")) {
             TRCompat.registerModItems();
         }
@@ -78,6 +78,9 @@ public class Initialize_Mod implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("valleycraft")) {
             ValleyCraft.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("more_gems")) {
+            More_Gems.registerModItems();
         }
     }
 }
