@@ -1,0 +1,26 @@
+{
+   "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "indrev:bronze_ingot"
+    },
+    "Z": {
+      "item": "expert_armor:ircompat/bronze_plate"
+    }
+  },
+  "result": {
+    "item": "indrev:bronze_boots"
+  }
+}

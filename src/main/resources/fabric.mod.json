@@ -3,7 +3,7 @@
   "id": "expert_armor",
   "version": "${version}",
   "name": "Expert_Armor",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "description": "Mod aimed at slowing the progression of armor",
   "authors": ["Xanthian"],
   "entrypoints": {"main": ["net.xanthian.expert_armor.Initialize_Mod"]},

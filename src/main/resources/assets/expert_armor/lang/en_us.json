@@ -95,6 +95,12 @@
   "item.expert_armor.more_gems.sapphire_plate": "Sapphire Armor Plate",
   "item.expert_armor.more_gems.spinel_plate": "Spinel Armor Plate",
   "item.expert_armor.more_gems.topaz_plate": "Topaz Armor Plate",
-  "item.expert_armor.more_gems.tourmaline_plate": "Tourmaline Armor Plate"
+  "item.expert_armor.more_gems.tourmaline_plate": "Tourmaline Armor Plate",
 
+  "item.expert_armor.ircompat.bronze_plate": "Bronze Armor Plate",
+  "item.expert_armor.ircompat.copper_plate": "Copper Armor Plate",
+  "item.expert_armor.ircompat.lead_plate": "Lead Armor Plate",
+  "item.expert_armor.ircompat.silver_plate": "Silver Armor Plate",
+  "item.expert_armor.ircompat.steel_plate": "Steel Armor Plate",
+  "item.expert_armor.ircompat.tin_plate": "Tin Armor Plate"
 }

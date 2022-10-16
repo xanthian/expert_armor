@@ -82,5 +82,8 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("more_gems")) {
             More_Gems.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("indrev")) {
+            IndustrialRevolution.registerModItems();
+        }
     }
 }
