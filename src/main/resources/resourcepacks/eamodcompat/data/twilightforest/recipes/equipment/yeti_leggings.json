@@ -1,0 +1,22 @@
+{
+  "result": {
+    "nbt": "{Enchantments:[{lvl:2s,id:\"minecraft:protection\"}]}",
+    "item": "twilightforest:yeti_leggings",
+    "type": "minecraft:item_nbt"
+  },
+  "group": "yeti_armor",
+  "pattern": [
+    "X#X",
+    "# #",
+    "# #"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "twilightforest:alpha_yeti_fur"
+    },
+    "X": {
+      "item": "expert_armor:twilightforest/alpha_yeti_fur_plate"
+    }
+  }
+}

@@ -85,5 +85,11 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("indrev")) {
             IndustrialRevolution.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("mobz")) {
+            MobZ.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("twilightforest")) {
+            TwilightForest.registerModItems();
+        }
     }
 }

@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mobz"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "group": "bronze",
+  "ingredients": [
+    {
+      "item": "expert_armor:mobz/amat_plate"
+    }
+  ],
+  "result": {
+    "item": "mobz:amat_ingot",
+    "count": 4
+  }
+}

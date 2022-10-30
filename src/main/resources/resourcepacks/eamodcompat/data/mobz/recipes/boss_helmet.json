@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mobz"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XdX",
+    "d d"
+ 
+  ],
+  "key": {
+    "d":{
+        "item": "mobz:boss_ingot"
+    },
+    "X": {
+      "item": "expert_armor:mobz/boss_plate"
+    }
+  },
+  "result": {
+    "item": "mobz:boss_helmet"
+  }
+}

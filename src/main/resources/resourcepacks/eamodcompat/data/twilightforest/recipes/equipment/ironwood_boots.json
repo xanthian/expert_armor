@@ -1,0 +1,21 @@
+{
+  "result": {
+    "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:feather_falling\"}]}",
+    "item": "twilightforest:ironwood_boots",
+    "type": "minecraft:item_nbt"
+  },
+  "group": "ironwood_armor",
+  "pattern": [
+    "X X",
+    "# #"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:ingots/ironwood"
+    },
+    "X": {
+      "item": "expert_armor:twilightforest/ironwood_plate"
+    }
+  }
+}

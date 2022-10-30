@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XaX",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "environmentz:wolf_pelt"
+    },
+    "X": {
+      "item": "expert_armor:leather_plate"
+    }
+  },
+  "result": {
+    "item": "environmentz:wolf_helmet"
+  }
+}

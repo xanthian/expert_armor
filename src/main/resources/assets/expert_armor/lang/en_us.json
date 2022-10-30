@@ -102,5 +102,18 @@
   "item.expert_armor.ircompat.lead_plate": "Lead Armor Plate",
   "item.expert_armor.ircompat.silver_plate": "Silver Armor Plate",
   "item.expert_armor.ircompat.steel_plate": "Steel Armor Plate",
-  "item.expert_armor.ircompat.tin_plate": "Tin Armor Plate"
+  "item.expert_armor.ircompat.tin_plate": "Tin Armor Plate",
+
+  "item.expert_armor.mobz.amat_plate": "Nether Reinforced Armor Plate",
+  "item.expert_armor.mobz.bearleather_plate": "Reinforced Bear Leather Armor Kit",
+  "item.expert_armor.mobz.boss_plate": "Boss Armor Plate",
+  "item.expert_armor.mobz.hardenedmetal_plate": "Metal Armor Plate",
+
+  "item.expert_armor.twilightforest.alpha_yeti_fur_plate": "Alpha Yeti Fur Reinforced Armor Kit",
+  "item.expert_armor.twilightforest.arctic_fur_plate": "Arctic Fur Reinforced Armor Kit",
+  "item.expert_armor.twilightforest.fiery_plate": "Fiery Plate",
+  "item.expert_armor.twilightforest.ironwood_plate": "Ironwood Plate",
+  "item.expert_armor.twilightforest.knightmetal_plate": "Knightmetal Plate",
+  "item.expert_armor.twilightforest.naga_scale_plate": "Naga Scale Plate",
+  "item.expert_armor.twilightforest.steeleaf_plate": "Steeleaf Plate"
 }

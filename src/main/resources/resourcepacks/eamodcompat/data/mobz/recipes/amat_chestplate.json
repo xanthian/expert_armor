@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "mobz"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "d d",
+        "XdX",
+        "ddd"
+    ],
+    "key": {
+        "d": {
+            "item": "mobz:amat_ingot"
+        },
+        "X": {
+            "item": "expert_armor:mobz/amat_plate"
+        }
+    },
+    "result": {
+        "item": "mobz:amat_chestplate"
+    }
+}

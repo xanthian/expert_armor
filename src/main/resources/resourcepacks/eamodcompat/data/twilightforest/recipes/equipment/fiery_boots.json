@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "twilightforest"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:ingots/fiery"
+    },
+    "X": {
+      "item": "expert_armor:twilightforest/fiery_plate"
+    }
+  },
+  "pattern": [
+    "X X",
+    "# #"
+  ],
+  "result": {
+    "item": "twilightforest:fiery_boots"
+  }
+}

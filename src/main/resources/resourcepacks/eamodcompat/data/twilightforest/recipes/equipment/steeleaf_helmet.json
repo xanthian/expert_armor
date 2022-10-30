@@ -1,0 +1,21 @@
+{
+  "result": {
+    "nbt": "{Enchantments:[{lvl:2s,id:\"minecraft:protection\"}]}",
+    "item": "twilightforest:steeleaf_helmet",
+    "type": "minecraft:item_nbt"
+  },
+  "group": "steeleaf_armor",
+  "pattern": [
+    "X#X",
+    "# #"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:ingots/steeleaf"
+    },
+    "X": {
+      "item": "expert_armor:twilightforest/steeleaf_plate"
+    }
+  }
+}
