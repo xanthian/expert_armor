@@ -1,0 +1,26 @@
+ { "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ], "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "I I",
+    "   "
+  ],
+  "key": {
+    "I":
+      {
+        "item": "minecraft:iron_block"
+      },
+    "P": {
+      "item": "expert_armor:iron_plate"
+    }
+  },
+  "result": {
+    "item": "immersive_armors:heavy_boots"
+  }
+}

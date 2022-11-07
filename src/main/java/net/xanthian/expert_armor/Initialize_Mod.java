@@ -91,5 +91,11 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("twilightforest")) {
             TwilightForest.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("immersive_armors")) {
+            ImmersiveArmors.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("galosphere")) {
+            Galosphere.registerModItems();
+        }
     }
 }

@@ -1,0 +1,28 @@
+ { "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ], "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R  ",
+    "HPH",
+    "   "
+  ],
+  "key": {
+    "R": {
+        "item": "minecraft:redstone_torch"
+      },
+    "H": {
+        "item": "minecraft:white_stained_glass"
+      },
+      "P": {
+        "item": "expert_armor:gold_plate"
+      }
+  },
+  "result": {
+    "item": "immersive_armors:steampunk_helmet"
+  }
+}

@@ -16,6 +16,6 @@ public class ValleyCraft {
         return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        LOGGER.info("ValleyCraft detected, adding Armor Plates");
+        LOGGER.debug("ValleyCraft detected, adding Armor Plates");
     }
 }

@@ -22,6 +22,6 @@ public class Emerald_Tools {
         return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        LOGGER.info("Emerald Tools detected, adding Armor Plates");
+        LOGGER.debug("Emerald Tools detected, adding Armor Plates");
     }
 }

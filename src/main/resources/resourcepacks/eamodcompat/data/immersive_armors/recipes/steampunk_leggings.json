@@ -1,0 +1,28 @@
+ { "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ], "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "X X",
+    "G G"
+  ],
+  "key": {
+    "G": {
+        "item": "minecraft:gold_ingot"
+      },
+    "X": {
+        "item": "minecraft:piston"
+      },
+    "P": {
+        "item": "expert_armor:gold_plate"
+      }
+  },
+  "result": {
+    "item": "immersive_armors:steampunk_leggings"
+  }
+}

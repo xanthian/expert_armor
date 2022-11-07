@@ -1,0 +1,25 @@
+ { "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ], "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "S S",
+    "   "
+  ],
+  "key": {
+    "S": {
+        "item": "minecraft:slime_ball"
+      },
+      "P": {
+        "item": "expert_armor:immersive_armors/slime_plate"
+      }
+  },
+  "result": {
+    "item": "immersive_armors:slime_boots"
+  }
+}

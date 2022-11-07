@@ -1,0 +1,26 @@
+ { "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ], "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "B B",
+    "   "
+  ],
+  "key": {
+    "B":
+      {
+        "item": "minecraft:bone"
+      },
+    "P": {
+      "item": "expert_armor:immersive_armors/bone_plate"
+    }
+  },
+  "result": {
+    "item": "immersive_armors:bone_helmet"
+  }
+}

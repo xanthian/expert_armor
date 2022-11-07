@@ -115,5 +115,15 @@
   "item.expert_armor.twilightforest.ironwood_plate": "Ironwood Plate",
   "item.expert_armor.twilightforest.knightmetal_plate": "Knightmetal Plate",
   "item.expert_armor.twilightforest.naga_scale_plate": "Naga Scale Plate",
-  "item.expert_armor.twilightforest.steeleaf_plate": "Steeleaf Plate"
+  "item.expert_armor.twilightforest.steeleaf_plate": "Steeleaf Plate",
+
+  "item.expert_armor.immersive_armors.bone_plate": "Bone Plate",
+  "item.expert_armor.immersive_armors.nether_brick_plate": "Nether Brick Plate",
+  "item.expert_armor.immersive_armors.woolen_plate": "Woolen Reinforced Armor Kit",
+  "item.expert_armor.immersive_armors.slime_plate": "Slime Plate",
+  "item.expert_armor.immersive_armors.prismarine_plate": "Prismarine Plate",
+  "item.expert_armor.immersive_armors.wooden_plate": "Wooden Plate",
+
+  "item.expert_armor.galosphere.silver_plate": "Silver Plate"
+
 }

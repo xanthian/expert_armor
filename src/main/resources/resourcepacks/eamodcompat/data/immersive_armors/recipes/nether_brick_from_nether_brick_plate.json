@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "group": "immersive_armors",
+  "ingredients": [
+    {
+      "item": "expert_armor:immersive_armors/nether_brick_plate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:nether_brick",
+    "count": 4
+  }
+}

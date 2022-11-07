@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "   ",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "expert_armor:immersive_armors/nether_brick_plate"
+  }
+}

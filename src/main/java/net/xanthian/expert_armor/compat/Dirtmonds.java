@@ -16,6 +16,6 @@ public class Dirtmonds {
         return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        LOGGER.info("Dirtmonds detected, adding Armor Plates");
+        LOGGER.debug("Dirtmonds detected, adding Armor Plates");
     }
 }

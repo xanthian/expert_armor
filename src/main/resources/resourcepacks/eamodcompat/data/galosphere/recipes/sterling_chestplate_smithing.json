@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "galosphere"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "expert_armor:galosphere/silver_plate"
+  },
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "result": {
+    "item": "galosphere:sterling_chestplate"
+  }
+}

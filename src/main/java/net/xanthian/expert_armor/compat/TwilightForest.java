@@ -23,6 +23,6 @@ public class TwilightForest {
         return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        LOGGER.info("Twilight Forest detected, adding Armor Plates");
+        LOGGER.debug("Twilight Forest detected, adding Armor Plates");
     }
 }

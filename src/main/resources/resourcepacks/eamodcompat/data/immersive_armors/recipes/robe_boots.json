@@ -1,0 +1,26 @@
+ { "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "immersive_armors"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "W W",
+    "   "
+  ],
+  "key": {
+    "W": {
+        "tag": "minecraft:wool"
+      },
+      "P": {
+        "item": "expert_armor:immersive_armors/woolen_plate"
+      }
+  },
+  "result": {
+    "item": "immersive_armors:robe_boots"
+  }
+}

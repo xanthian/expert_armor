@@ -16,6 +16,6 @@ public class AmethystEquipment {
         return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        LOGGER.info("Amethyst Equipment detected, adding Armor Plates");
+        LOGGER.debug("Amethyst Equipment detected, adding Armor Plates");
     }
 }
