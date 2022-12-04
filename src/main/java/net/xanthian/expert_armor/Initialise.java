@@ -13,13 +13,9 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-public class Initialize_Mod implements ModInitializer {
+public class Initialise implements ModInitializer {
 
     public static final String MOD_ID = "expert_armor";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     public static final ItemGroup EXPERT = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "expert"),
             () -> new ItemStack(ExpertArmor.NETHERITE_PLATE));
@@ -32,13 +28,13 @@ public class Initialize_Mod implements ModInitializer {
             ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(MOD_ID, "eamodcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
         });
         if (FabricLoader.getInstance().isModLoaded("techreborn")) {
-            TRCompat.registerModItems();
+            TechReborn.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("gobber2")) {
-            Gobber2Compat.registerModItems();
+            Gobber2.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
-            MMCompat.registerModItems();
+            MythicMetals.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("botania")) {
             Botania.registerModItems();
@@ -71,7 +67,7 @@ public class Initialize_Mod implements ModInitializer {
             Dirtmonds.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("emerald_tools")) {
-            Emerald_Tools.registerModItems();
+            EmeraldTools.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("obsidianequipment")) {
             ObsidianEquipment.registerModItems();
@@ -80,7 +76,7 @@ public class Initialize_Mod implements ModInitializer {
             ValleyCraft.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("more_gems")) {
-            More_Gems.registerModItems();
+            MoreGems.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("indrev")) {
             IndustrialRevolution.registerModItems();
@@ -96,6 +92,9 @@ public class Initialize_Mod implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("galosphere")) {
             Galosphere.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("create")) {
+            Create.registerModItems();
         }
     }
 }

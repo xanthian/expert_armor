@@ -6,9 +6,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.xanthian.expert_armor.Initialise;
 
-public class AmethystEquipment {
 
-    public static final Item AMETHYST_PLATE = registerItem("amethysteq/amethyst_plate", new Item(new FabricItemSettings().group(Initialise.EXPERT)));
+
+public class Create {
+    public static final Item COPPER_PLATE = registerItem("create/copper_plate", new Item(new FabricItemSettings().group(Initialise.EXPERT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Initialise.MOD_ID, name), item);
