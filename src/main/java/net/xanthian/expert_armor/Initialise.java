@@ -1,32 +1,30 @@
 package net.xanthian.expert_armor;
 
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 import net.xanthian.expert_armor.compat.*;
-import net.xanthian.expert_armor.item.ExpertArmor;
+import net.xanthian.expert_armor.item.VanillaPlates;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.xanthian.expert_armor.util.ModItemGroup;
 
 public class Initialise implements ModInitializer {
 
     public static final String MOD_ID = "expert_armor";
 
-    public static final ItemGroup EXPERT = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "expert"),
-            () -> new ItemStack(ExpertArmor.NETHERITE_PLATE));
-
     @Override
     public void onInitialize() {
 
-        ExpertArmor.registerModItems();
+        ModItemGroup.registerGroup();
+        VanillaPlates.registerModItems();
+
         FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
             ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(MOD_ID, "eamodcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
         });
+
         if (FabricLoader.getInstance().isModLoaded("techreborn")) {
             TechReborn.registerModItems();
         }
@@ -35,9 +33,6 @@ public class Initialise implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
             MythicMetals.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("botania")) {
-            Botania.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("betternether")) {
             BetterNether.registerModItems();
@@ -71,9 +66,6 @@ public class Initialise implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("obsidianequipment")) {
             ObsidianEquipment.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("valleycraft")) {
-            ValleyCraft.registerModItems();
         }
         if (FabricLoader.getInstance().isModLoaded("more_gems")) {
             MoreGems.registerModItems();
