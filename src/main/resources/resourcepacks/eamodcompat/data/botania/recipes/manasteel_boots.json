@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "botania"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "S S"
+  ],
+  "key": {
+    "X": {
+      "item": "expert_armor:botania/manasteel_plate"
+    },
+    "S": {
+      "tag": "botania:manasteel_ingots"
+    }
+  },
+  "result": {
+    "item": "botania:manasteel_boots"
+  }
+}

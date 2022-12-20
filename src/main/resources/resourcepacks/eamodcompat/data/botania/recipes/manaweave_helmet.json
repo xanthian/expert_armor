@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "botania"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XSX",
+    "S S"
+  ],
+  "key": {
+    "X": {
+      "item": "expert_armor:botania/manaweave_plate"
+    },
+    "S": {
+      "item": "botania:manaweave_cloth"
+    }
+  },
+  "result": {
+    "item": "botania:manaweave_helmet"
+  }
+}

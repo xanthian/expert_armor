@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomemakeover"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X Z",
+    "   ",
+    "Z X"
+  ],
+  "key": {
+    "X": {
+      "item": "biomemakeover:crude_cladding"
+    },
+    "Z": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "expert_armor:biomemakeover/crude_cladded_plate"
+  }
+}

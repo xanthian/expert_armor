@@ -34,6 +34,9 @@ public class Initialise implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
             MythicMetals.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("botania")) {
+            Botania.registerModItems();
+        }
         if (FabricLoader.getInstance().isModLoaded("betternether")) {
             BetterNether.registerModItems();
         }
@@ -87,6 +90,9 @@ public class Initialise implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("create")) {
             Create.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("biomemakeover")) {
+            BiomeMakeover.registerModItems();
         }
     }
 }
