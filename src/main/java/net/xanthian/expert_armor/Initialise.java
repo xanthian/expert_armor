@@ -96,5 +96,8 @@ public class Initialise implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("create")) {
             Create.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("biomemakeover")) {
+            BiomeMakeover.registerModItems();
+        }
     }
 }
