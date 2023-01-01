@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "sculk_worm"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expert_armor:sculk_worm/sculk_mucus_plate"
+    }
+  ],
+  "result": {
+    "item": "sculk_worm:sculk_mucus",
+    "count": 4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "liroth"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PXP",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "liroth:lirothian_cobalt_ingot"
+    },
+    "P": {
+      "item": "expert_armor:liroth/lirothian_cobalt_plate"
+    }
+  },
+  "result": {
+    "item": "liroth:lirothian_cobalt_leggings"
+  }
+}

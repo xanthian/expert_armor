@@ -9,6 +9,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+
 import net.xanthian.expert_armor.util.ModItemGroup;
 
 public class Initialise implements ModInitializer {
@@ -93,6 +94,21 @@ public class Initialise implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("biomemakeover")) {
             BiomeMakeover.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("friendsandfoes")) {
+            FriendsAndFoes.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("liroth")) {
+            Liroth.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("amethyst_imbuement")) {
+            Amethyst_Imbuement.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("netherdepthsupgrade")) {
+            NetherDepthsUpgrade.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("sculk_worm")) {
+            Sculk_Worm.registerModItems();
         }
     }
 }

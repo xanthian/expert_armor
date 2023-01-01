@@ -126,5 +126,24 @@
 
   "item.expert_armor.create.copper_plate": "Copper Armor Plate",
 
-  "item.expert_armor.biomemakeover.crude_cladded_plate": "Crude Cladded Plate"
+  "item.expert_armor.biomemakeover.crude_cladded_plate": "Crude Cladded Plate",
+
+  "item.expert_armor.friendsandfoes.wildfire_plate": "Wildfire Plate",
+
+  "item.expert_armor.liroth.ansalum_plate": "Ansalum Plate",
+  "item.expert_armor.liroth.compressed_potestium_plate": "Compressed Potestium Plate",
+  "item.expert_armor.liroth.compressed_quantum_plate": "Compressed Quantum Plate",
+  "item.expert_armor.liroth.liroth_gem_plate": "Liroth Gem Plate",
+  "item.expert_armor.liroth.lirothian_cobalt_plate": "Lirothian Cobalt Plate",
+  "item.expert_armor.liroth.lux_plate": "Lux Plate",
+  "item.expert_armor.liroth.ruby_plate": "Ruby Plate",
+  "item.expert_armor.liroth.salem_plate": "Salem Plate",
+  "item.expert_armor.liroth.tourmaline_plate": "Tourmaline Plate",
+
+  "item.expert_armor.amethyst_imbuement.ametrine_plate": "Ametrine Plate",
+  "item.expert_armor.amethyst_imbuement.steel_plate": "Steel Plate",
+
+  "item.expert_armor.netherdepthsupgrade.soul_sucker_plate": "Soul Sucker Reinforced Armor Kit",
+
+  "item.expert_armor.sculk_worm.sculk_mucus_plate": "Sculk Mucus Reinforced Armor Kit"
 }

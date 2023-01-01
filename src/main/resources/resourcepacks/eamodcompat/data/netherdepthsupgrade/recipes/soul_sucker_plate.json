@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "netherdepthsupgrade"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "   ",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "netherdepthsupgrade:soul_sucker_leather"
+    }
+  },
+  "result": {
+    "item": "expert_armor:netherdepthsupgrade/soul_sucker_plate"
+  }
+}

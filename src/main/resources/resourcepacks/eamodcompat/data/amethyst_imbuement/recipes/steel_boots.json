@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "amethyst_imbuement"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "amethyst_imbuement:steel_ingot"
+    },
+    "Z": {
+      "item": "expert_armor:amethyst_imbuement/steel_plate"
+    }
+  },
+  "result": {
+    "item": "amethyst_imbuement:steel_boots"
+  }
+}

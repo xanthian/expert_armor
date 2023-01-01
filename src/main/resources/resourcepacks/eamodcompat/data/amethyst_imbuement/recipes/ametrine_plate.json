@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "amethyst_imbuement"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X Z",
+	"   ",
+    "Y X"
+  ],
+  "key": {
+    "X": {
+      "item": "amethyst_imbuement:ametrine"
+    },
+    "Z": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "Y": {
+      "item": "amethyst_imbuement:citrine"
+    }
+  },
+  "result": {
+"item": "expert_armor:amethyst_imbuement/ametrine_plate"
+  }
+}

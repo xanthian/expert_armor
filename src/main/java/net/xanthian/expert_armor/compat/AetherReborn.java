@@ -8,13 +8,15 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
-
 import net.xanthian.expert_armor.Initialise;
 
 public class AetherReborn {
 
-    public static final Item GRAVITITE_PLATE = registerItem("aether/gravitite_plate", new Item(new FabricItemSettings().rarity(Rarity.RARE)));
-    public static final Item ZANITE_PLATE = registerItem("aether/zanite_plate", new Item(new FabricItemSettings()));
+    public static final Item GRAVITITE_PLATE = registerItem("aether/gravitite_plate",
+            new Item(new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item ZANITE_PLATE = registerItem("aether/zanite_plate",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Initialise.MOD_ID, name), item);
