@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "netherdepthsupgrade"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expert_armor:netherdepthsupgrade/soul_sucker_plate"
+    }
+  ],
+  "result": {
+    "item": "netherdepthsupgrade:soul_sucker_leather",
+    "count": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "liroth"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "   ",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "liroth:liroth_gem_ansalum"
+    }
+  },
+  "result": {
+    "item": "expert_armor:liroth/ansalum_plate"
+  }
+}

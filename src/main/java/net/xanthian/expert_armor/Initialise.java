@@ -99,5 +99,20 @@ public class Initialise implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("biomemakeover")) {
             BiomeMakeover.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("friendsandfoes")) {
+            FriendsAndFoes.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("liroth")) {
+            Liroth.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("amethyst_imbuement")) {
+            Amethyst_Imbuement.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("netherdepthsupgrade")) {
+            NetherDepthsUpgrade.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("sculk_worm")) {
+            Sculk_Worm.registerModItems();
+        }
     }
 }

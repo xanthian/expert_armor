@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "sculk_worm"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "sculk_worm:sculk_mucus"
+    },
+    "B": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "X": {
+      "item": "expert_armor:sculk_worm/sculk_mucus_plate"
+    }
+  },
+  "result": {
+    "item": "sculk_worm:sensor_helmet"
+  }
+}

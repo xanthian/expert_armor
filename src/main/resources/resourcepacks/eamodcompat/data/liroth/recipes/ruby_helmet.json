@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "liroth"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "liroth:ruby"
+    },
+    "P": {
+      "item": "expert_armor:liroth/ruby_plate"
+    }
+  },
+  "pattern": [
+    "PXP",
+    "X X"
+  ],
+  "result": {
+    "item": "liroth:ruby_helmet"
+  }
+}

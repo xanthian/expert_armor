@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "liroth"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "expert_armor:netherite_plate"
+  },
+  "base": {
+    "item": "liroth:ruby_chestplate"
+  },
+  "result": {
+    "item": "minecraft:netherite_chestplate"
+  }
+}
