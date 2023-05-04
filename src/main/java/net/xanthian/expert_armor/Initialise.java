@@ -1,6 +1,6 @@
 package net.xanthian.expert_armor;
 
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -17,8 +17,8 @@ public class Initialise implements ModInitializer {
 
     public static final String MOD_ID = "expert_armor";
 
-    public static final ItemGroup EXPERT = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "expert"),
-            () -> new ItemStack(ExpertArmor.NETHERITE_PLATE));
+    public static final ItemGroup EXPERT = FabricItemGroup.builder(new Identifier(MOD_ID, "expert")
+    ).build();
 
     @Override
     public void onInitialize() {
