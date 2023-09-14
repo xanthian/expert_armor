@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_leather_plate": {
+    "has_leather_patch": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "expert_armor:leather_plate"
+              "expert_armor:leather_patch"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_leather_plate",
+      "has_leather_patch",
       "has_the_recipe"
     ]
   ]

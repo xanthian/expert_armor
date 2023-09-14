@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "X X",
+    "   ",
+    "X X"
+  ],
+  "result": {
+    "item": "expert_armor:leather_patch"
+  },
+  "show_notification": true
+}
