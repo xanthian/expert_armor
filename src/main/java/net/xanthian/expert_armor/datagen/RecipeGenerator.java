@@ -3,6 +3,7 @@ package net.xanthian.expert_armor.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
+import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
@@ -19,7 +20,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
     }
 
     @Override
-    public void generate(Consumer<RecipeJsonProvider> exporter) {
+    public void generate(RecipeExporter exporter) {
 
         offerPlateRecipe(exporter, Vanilla.LEATHER_PATCH, Items.LEATHER);
         offerPlateRecipe(exporter, Vanilla.SCUTE_PLATE, Items.SCUTE);
@@ -37,7 +38,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
 
     }
     
-    public static void offerPlateRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible plate, ItemConvertible input) {
+    public static void offerPlateRecipe(RecipeExporter exporter, ItemConvertible plate, ItemConvertible input) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, plate, 1)
                 .input('X', input)
                 .pattern("X X")
@@ -46,7 +47,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .criterion("has_base_item", InventoryChangedCriterion.Conditions.items(input))
                 .offerTo(exporter);
     }
-    public static void offerUncraftingRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible plate) {
+    public static void offerUncraftingRecipe(RecipeExporter exporter, ItemConvertible output, ItemConvertible plate) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, output, 4)
                 .input(plate)
                 .criterion("has_plate", InventoryChangedCriterion.Conditions.items(plate))
