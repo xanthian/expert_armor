@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "expert_armor:golden_plate"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:gold_ingot"
+  }
+}

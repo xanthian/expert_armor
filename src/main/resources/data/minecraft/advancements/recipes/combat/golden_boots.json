@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "has_gold_plate": {
+    "has_golden_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "expert_armor:gold_plate"
+              "expert_armor:golden_plate"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_gold_plate",
+      "has_golden_plate",
       "has_the_recipe"
     ]
   ]

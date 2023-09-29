@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "netherite",
+  "category": "misc",
   "ingredients": [
     {
       "item": "expert_armor:netherite_plate"
     }
   ],
   "result": {
-    "item": "minecraft:netherite_ingot",
-    "count": 2
+    "count": 4,
+    "item": "minecraft:netherite_ingot"
   }
 }

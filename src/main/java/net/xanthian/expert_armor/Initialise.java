@@ -35,10 +35,10 @@ public class Initialise {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.LEATHER_PLATE);
-            event.accept(ModItems.TURTLE_PLATE);
+            event.accept(ModItems.LEATHER_PATCH);
+            event.accept(ModItems.SCUTE_PLATE);
             event.accept(ModItems.IRON_PLATE);
-            event.accept(ModItems.GOLD_PLATE);
+            event.accept(ModItems.GOLDEN_PLATE);
             event.accept(ModItems.DIAMOND_PLATE);
             event.accept(ModItems.NETHERITE_PLATE);
         }

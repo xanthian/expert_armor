@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:scute"
+    }
+  },
+  "pattern": [
+    "X X",
+    "   ",
+    "X X"
+  ],
+  "result": {
+    "item": "expert_armor:scute_plate"
+  },
+  "show_notification": true
+}

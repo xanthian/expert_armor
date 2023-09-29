@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "diamond",
+  "category": "misc",
   "ingredients": [
     {
       "item": "expert_armor:diamond_plate"
     }
   ],
   "result": {
-    "item": "minecraft:diamond",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:diamond"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "expert_armor:item/turtle_plate"
+    "layer0": "expert_armor:item/golden_plate"
   }
 }

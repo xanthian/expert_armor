@@ -12,13 +12,13 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Initialise.MOD_ID);
 
-    public static final RegistryObject<Item> LEATHER_PLATE = ITEMS.register("leather_plate",
+    public static final RegistryObject<Item> LEATHER_PATCH = ITEMS.register("leather_patch",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> TURTLE_PLATE = ITEMS.register("turtle_plate",
+    public static final RegistryObject<Item> SCUTE_PLATE = ITEMS.register("scute_plate",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> IRON_PLATE = ITEMS.register("iron_plate",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GOLD_PLATE = ITEMS.register("gold_plate",
+    public static final RegistryObject<Item> GOLDEN_PLATE = ITEMS.register("golden_plate",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_PLATE = ITEMS.register("diamond_plate",
             () -> new Item(new Item.Properties()));

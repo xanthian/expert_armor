@@ -1,13 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "minecraft:golden_chestplate"
-    ]
-  },
   "criteria": {
-    "has_golden_plate": {
-      "trigger": "minecraft:inventory_changed",
+    "has_plate": {
       "conditions": {
         "items": [
           {
@@ -16,19 +10,26 @@
             ]
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:golden_chestplate"
-      }
+        "recipe": "minecraft:gold_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_golden_plate",
+      "has_plate",
       "has_the_recipe"
     ]
-  ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gold_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
 }
