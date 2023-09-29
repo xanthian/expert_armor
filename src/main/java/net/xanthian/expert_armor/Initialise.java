@@ -1,114 +1,60 @@
 package net.xanthian.expert_armor;
 
-import net.minecraft.util.Identifier;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.server.ServerStartingEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.xanthian.expert_armor.item.ModItems;
 
-import net.xanthian.expert_armor.compat.*;
-import net.xanthian.expert_armor.item.VanillaPlates;
-
-import net.fabricmc.api.ModInitializer;
-import net.fabricmc.loader.api.FabricLoader;
-import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
-import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
-
-import net.xanthian.expert_armor.util.ModItemGroup;
-
-public class Initialise implements ModInitializer {
+@Mod(Initialise.MOD_ID)
+public class Initialise {
 
     public static final String MOD_ID = "expert_armor";
 
-    @Override
-    public void onInitialize() {
+    public Initialise() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItemGroup.registerGroup();
-        VanillaPlates.registerModItems();
+        modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::addCreative);
 
-        FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
-            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(MOD_ID, "eamodcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
-        });
+        ModItems.ITEMS.register(modEventBus);
 
-        if (FabricLoader.getInstance().isModLoaded("techreborn")) {
-            TechReborn.registerModItems();
+        MinecraftForge.EVENT_BUS.register(this);
+    }
+
+    private void commonSetup(final FMLCommonSetupEvent event) {
+
+    }
+
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.LEATHER_PLATE);
+            event.accept(ModItems.TURTLE_PLATE);
+            event.accept(ModItems.IRON_PLATE);
+            event.accept(ModItems.GOLD_PLATE);
+            event.accept(ModItems.DIAMOND_PLATE);
+            event.accept(ModItems.NETHERITE_PLATE);
         }
-        if (FabricLoader.getInstance().isModLoaded("gobber2")) {
-            Gobber2.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
-            MythicMetals.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("botania")) {
-            Botania.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("betternether")) {
-            BetterNether.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("betterend")) {
-            BetterEnd.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("copperequipment")) {
-            CopperEquipment.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("advancednetherite")) {
-            AdvancedNetherite.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("the_aether")) {
-            AetherReborn.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("dragonloot")) {
-            DragonLoot.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("amethystequipment")) {
-            AmethystEquipment.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("boneequipment")) {
-            BoneEquipment.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("dirtmonds")) {
-            Dirtmonds.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("emerald_tools")) {
-            EmeraldTools.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("obsidianequipment")) {
-            ObsidianEquipment.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("more_gems")) {
-            MoreGems.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("indrev")) {
-            IndustrialRevolution.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("mobz")) {
-            MobZ.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("twilightforest")) {
-            TwilightForest.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("immersive_armors")) {
-            ImmersiveArmors.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("galosphere")) {
-            Galosphere.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("create")) {
-            Create.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("biomemakeover")) {
-            BiomeMakeover.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("friendsandfoes")) {
-            FriendsAndFoes.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("liroth")) {
-            Liroth.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("amethyst_imbuement")) {
-            Amethyst_Imbuement.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("netherdepthsupgrade")) {
-            NetherDepthsUpgrade.registerModItems();
-        }
-        if (FabricLoader.getInstance().isModLoaded("sculk_worm")) {
-            Sculk_Worm.registerModItems();
+    }
+
+    @SubscribeEvent
+    public void onServerStarting(ServerStartingEvent event) {
+
+    }
+
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents
+    {
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event)
+        {
         }
     }
 }

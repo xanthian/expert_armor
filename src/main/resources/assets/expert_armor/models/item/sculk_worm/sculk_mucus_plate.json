@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "expert_armor:item/sculk_worm/sculk_mucus_plate"
-  }
-}

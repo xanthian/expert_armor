@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "expert_armor:item/twilightforest/alpha_yeti_fur_plate"
-  }
-}
