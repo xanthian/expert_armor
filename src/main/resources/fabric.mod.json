@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "expert_armor",
   "version": "${version}",
-  "name": "Expert_Armor",
+  "name": "Expert Armor",
   "license": "MIT",
   "description": "Mod aimed at slowing the progression of armor",
-  "authors": ["Xanthian"],
+  "authors": ["Xanthian", "Carve"],
   "entrypoints": {"main": [
     "net.xanthian.expert_armor.Initialise"
   ]},
@@ -13,7 +13,7 @@
   "depends": {
     "fabricloader": ">=0.14.8",
     "fabric": "*",
-    "minecraft": ">=1.19 <1.19.3",
+    "minecraft": ">=1.19.4",
     "java": ">=17"
   }
 }
