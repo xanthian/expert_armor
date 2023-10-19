@@ -21,7 +21,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "c:ingots/ironwood"
+      "tag": "c:ironwood_ingots"
     },
     "X": {
       "item": "expert_armor:twilightforest/ironwood_plate"

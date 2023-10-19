@@ -10,7 +10,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "c:ingots/fiery"
+      "tag": "c:fiery_ingots"
     },
     "X": {
       "item": "expert_armor:twilightforest/fiery_plate"
