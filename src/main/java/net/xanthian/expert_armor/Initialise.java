@@ -1,9 +1,7 @@
 package net.xanthian.expert_armor;
 
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,7 +20,6 @@ public class Initialise {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
-        modEventBus.addListener(this::addCreative);
 
         ModItems.ITEMS.register(modEventBus);
 
@@ -33,16 +30,6 @@ public class Initialise {
 
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.LEATHER_PATCH);
-            event.accept(ModItems.SCUTE_PLATE);
-            event.accept(ModItems.IRON_PLATE);
-            event.accept(ModItems.GOLDEN_PLATE);
-            event.accept(ModItems.DIAMOND_PLATE);
-            event.accept(ModItems.NETHERITE_PLATE);
-        }
-    }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
